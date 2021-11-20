@@ -1,0 +1,21 @@
+.container{
+    padding: 5rem;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo img {
+    width: 10rem;
+    height: auto;
+}
+.navbar-item ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-item ul li {
+    padding: 10px;
+}
