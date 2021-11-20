@@ -1,21 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .container{
-    padding: 5rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
-li{
-    list-style-type: none;
-}
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
 }
 .navbar-logo img {
     width: 10rem;
-    height: auto;
+    margin-left: 3rem;
 }
-.navbar-item ul{
+.navbar-item{
+   
+    margin-top: 2rem;
+    
+}
+.list {
     display: flex;
-    justify-content: space-around;
 }
-.navbar-item ul li {
-    padding: 10px;
+.list li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.list li a {
+    display: block;
+    margin:10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.color{
+    color: black;
+}
+.color2{
+    color: white;
+}
+.active {
+    width: auto;
+    background-color: #193498;
+    border-radius: 25px;
+}
+.list li a:hover{
+    width: auto;
+    background-color: #193498;
+    border-radius: 25px;
+    color: white;
+}
+.content {
+    width: auto;
+    height: 26rem;
+    background-image: linear-gradient(to bottom right, #193498, #1597E5);
+    margin: 2rem 1.5rem;
+    border-radius: 2rem;
+}
+.isi{
+    padding:3rem ;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.judul h1,h2 {
+    color: white;
+    font-size: 3rem;
+}
+.button {
+    width: auto;
+    padding: 0.8rem 2rem;
+    border-radius: 0.8rem;
+    background-color: #FFA400;
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.teksk{
+    color: white;
+    font-size: 15px;
+}
+.gambar img {
+    width: 31rem;
 }
