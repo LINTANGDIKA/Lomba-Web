@@ -387,9 +387,12 @@ body {
 .tutorial{
     padding: 2rem;
 }
+.tutorialImg {
+    width: 70rem;
+    margin:auto ;
+}
 .gambarOrang {
-    width: 43rem;
-    margin: 0 20rem;
+    width: 70rem;
 }
 .teksTutorial {
     text-align: center;
