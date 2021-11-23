@@ -4,12 +4,18 @@
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    
 }
+body {
+    background-color: #F6F5F5;
+}
+
 .container{
     padding-top: 2rem;
     padding-right: 4rem;
     padding-left: 4rem;
 }
+/* Navbar Style*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -60,6 +66,8 @@
     border-radius: 25px;
     color: white;
 }
+/* Akhir Navbar Style */
+/* Content Pertama Style */
 .content {
     width: auto;
     height: 26rem;
@@ -72,7 +80,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-.judul h1,h2 {
+.judulContent {
     color: white;
     font-size: 3rem;
 }
@@ -96,55 +104,42 @@
 .gambar img {
     width: 31rem;
 }
-
-.container-bar {
+/* Akhir Content Pertama Style */
+/* Progres-Bar Style */
+.progress-bar{
     display: flex;
-    justify-content: left;
-    align-items: left;
-    min-height: 100vh;
-    background: rgba(211, 211, 211, 0);
+    justify-content: space-around;
+    margin: 6rem 0;
 }
-
-.box{
+.persen{
     position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    background:rgba(235, 235, 235, 0);
-    box-shadow: 0 30px 60px rgba(0, 0, 0,.2);
+    width: 165px;
+    height: 165px;
 }
-.box .persen{
+.persen svg{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
-.box .persen svg{
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-.box .persen svg circle{
+.persen svg circle{
     width:150px;
-    height:150spx;
+    height:150px;
     fill: none;
-    stroke-width: 10;
+    stroke-width: 20;
     stroke:red;
-    transform: translate(5px,5px);
+    transform: translate(10px,10px);
     stroke-dasharray: 440;
     stroke-dashoffset:440;
 }
-.box .persen svg circle:nth-child(1){
+.persen svg circle:nth-child(1){
     stroke-dashoffset:0;
     stroke: #a30000;
 }
-.box .persen svg circle:nth-child(2){
+.persen svg circle:nth-child(2){
     stroke-dashoffset:calc(440 - (440 * 17 / 100));
-    stroke: #f3f3f3;
+    stroke: #C4C4C4;
 }
-.box .persen .number{
+.persen .number{
     position: absolute;
     top: 0;
     left: 0;
@@ -155,68 +150,42 @@
     align-items:center;
     color: #000000;
 }
-.box .persen .number h2{
+.persen .number h2{
     font: size 48px;
     color: #000000;
 }
-.box .persen .number span{
+.persen .number span{
     font: size 24px;
 }
-.box .text{
-    padding: 10px 0 0;
-    color: #000000;
-    font-weight: 700;
-    letter: spacing 1px;
-}
-
-.container-bar2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: rgba(211, 211, 211, 0);
-}
-
-.box2{
+.persen2{
     position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    background:rgba(235, 235, 235, 0);
-    box-shadow: 0 30px 60px rgba(0, 0, 0,.2);
+    width: 165px;
+    height: 165px;
 }
-.box2 .persen2{
+.persen2 svg{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
-.box2 .persen2 svg{
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-.box2 .persen2 svg circle{
+.persen2 svg circle{
     width:150px;
-    height:150spx;
+    height:150px;
     fill: none;
-    stroke-width: 10;
+    stroke-width: 20;
     stroke:rgb(29, 18, 175);
-    transform: translate(5px,5px);
+    transform: translate(10px,10px);
     stroke-dasharray: 440;
     stroke-dashoffset:440;
 }
-.box2 .persen2 svg circle:nth-child(1){
+.persen2 svg circle:nth-child(1){
     stroke-dashoffset:0;
     stroke: #15218b;
 }
-.box2 .persen2 svg circle:nth-child(2){
+.persen2 svg circle:nth-child(2){
     stroke-dashoffset:calc(440 - (440 * 96 / 100));
-    stroke: #f3f3f3;
+    stroke: #C4C4C4;
 }
-.box2 .persen2 .number2{
+.persen2 .number2{
     position: absolute;
     top: 0;
     left: 0;
@@ -227,69 +196,50 @@
     align-items:center;
     color: #000000;
 }
-.box2 .persen2 .number2 h2{
+.persen2 .number2 h2{
     font: size 48px;
     color: #000000;
 }
-.box2 .persen2 .number2 span{
+.persen2 .number2 span{
     font: size 24px;
     color:#000000
 }
-.box2 .text2{
+.text2{
     padding: 10px 0 0;
     color: #000000;
     font-weight: 700;
     letter: spacing 1px;
+    text-align: center;
 }
-
-.container-bar3{
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    min-height: 100vh;
-    background: rgba(211, 211, 211, 0);
-}
-
-.box3{
+.persen3{
     position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    background:rgba(235, 235, 235, 0);
-    box-shadow: 0 30px 60px rgba(0, 0, 0,.2);
+    width: 165px;
+    height: 165px;
 }
-.box3 .persen3{
+.persen3 svg{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
-.box3 .persen3 svg{
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-.box3 .persen3 svg circle{
+.persen3 svg circle{
     width:150px;
-    height:150spx;
+    height:150px;
     fill: none;
-    stroke-width: 10;
+    stroke-width: 20;
     stroke:rgb(29, 18, 175);
-    transform: translate(5px,5px);
+    transform: translate(10px,10px);
     stroke-dasharray: 440;
     stroke-dashoffset:440;
 }
-.box3 .persen3 svg circle:nth-child(1){
+.persen3 svg circle:nth-child(1){
     stroke-dashoffset:0;
     stroke: #d1e42b;
 }
-.box3 .persen3 svg circle:nth-child(2){
+.persen3 svg circle:nth-child(2){
     stroke-dashoffset:calc(440 - (440 * 96 / 100));
-    stroke: #f3f3f3;
+    stroke: #C4C4C4;
 }
-.box3 .persen3 .number3{
+.persen3 .number3{
     position: absolute;
     top: 0;
     left: 0;
@@ -300,16 +250,160 @@
     align-items:center;
     color: #000000;
 }
-.box3 .persen3 .number3 h2{
+.persen3 .number3 h2{
     font: size 48px;
     color:#000000
 }
-.box3 .persen3 .number3 span{
+.persen3 .number3 span{
     font: size 24px;
 }
-.box3 .text3{
+.text3{
     padding: 10px 0 0;
     color: #000000;
     font-weight: 700;
-    letter: spacing 1px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/* Akhir Progress-Bar Style */
+/* Info Vaksin Style */
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+.infoTitle{
+    display: flex;
+}
+
+.img{
+    border-radius: 25%;
+    padding: 0.5rem;
+    background-color: #FFA400;
+}
+.img img {
+    width: 4rem;
+    height: 4rem;
+}
+.sinovac {
+    width: 19rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 25px;
+}
+.sinovac h1 {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.sinovac p {
+    margin: 1rem;
+    font-size: 13px;
+}
+.moderna {
+    width: 19rem;
+    height: 15rem;
+    background-color: #0F044C;
+    padding: 2rem;
+    border-radius: 25px;
+    color: white;
+}
+.moderna h1 {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.moderna p {
+    margin: 1rem;
+    font-size: 11px;
+}
+.img1{
+    border-radius: 25%;
+    padding: 0.5rem;
+    background-color: #ffffff;
+}
+.img1 img {
+    width: 4rem;
+    height: 4rem;
+}
+.astrazeneca {
+    width: 19rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 25px;
+}
+.astrazeneca h1 {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.astrazeneca p {
+    margin: 1rem;
+    font-size: 12px;
+}
+/* Akhir Info Vaksin Style */
+.berita{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #000000, #193498);
+    border-radius: 25px;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+.beritaa{
+    display: flex;
+    margin: 2rem 0;
+}
+.beritaa img {
+    width: 30rem;
+}
+.teksBerita{
+    color: white;
+    margin-left: 2rem;
+}
+.isibe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.teksBerita p {
+    margin: 1rem 0;
+}
+.buttonBerita {
+    width: 15%;
+    padding: 0.8rem 2rem;
+    border-radius: 0.8rem;
+    background-color: #FFA400;
+    border: none;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    margin: auto;
+}
+.buttonBerita a{
+    color: white;
+    text-decoration: none;
+}
+/* Akhir Berita Style */
+.tutorial{
+    padding: 2rem;
+}
+.gambarOrang {
+    width: 43rem;
+    margin: 0 20rem;
+}
+.teksTutorial {
+    text-align: center;
+    margin: 2rem 0;
+}
+.teksTutorial h1 {
+    margin: 1rem 0;
+}
+.teksTutorial ul {
+    font-style: italic;
+    font-family: Poppins;
+    font-size: 1.3rem;
+}
+.teksTutorial li {
+    list-style-position: inside;
+    margin: 1rem 0;
 }
