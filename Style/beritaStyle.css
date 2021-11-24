@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F6F5F5;
+}
+.container {
+    padding: 2rem;
+}
+.backNavigation {
+    width:55% ;
+    margin: auto;
+}
+.backNavigation img {
+    width: 8rem;
+}
+.search {
+    width: 40%;
+    margin: auto;
+}
+.navbar-berita {
+    width:55% ;
+    margin: auto;
+}
+.navbar-berita img {
+    width: 8rem;
+}
+input[type=text] {
+    width: 50rem;
+    padding: 1.5rem 2rem;
+    background-image: url(/Image/search-icon-png-9972.png);
+    background-size:6rem;
+    background-color: #DDDDDD;
+    background-position-x: right;  
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+    border: 1px solid #DDDDDD;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: Red Hat Display;
+}
+input[type=text]:focus, select {
+    outline: none
+}
+::placeholder { 
+    font-weight: bold;
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.judul h1{
+    margin-top: 2rem;
+    font-size: 5rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.berita-1{
+    width: 90rem;
+    margin: 2rem auto;
+
+}
+.berita-1 img{
+    width: 90rem;
+    height:auto ;
+}
+
+.caption {
+    position: absolute;
+    bottom: -25rem;
+    width: 45%;
+    margin: 2rem 5rem;
+}
+.caption h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+.berita-2{
+    justify-items: center;
+    margin-bottom: 50px;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 15px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
+}
+
+.berita-2 h2{
+    position: absolute;
+    left: 1.8%;
+    right: 33.16%;
+    top: 10.1%;
+    bottom: 29%;
+    @font-face {
+        font-family: Red Hat Display;
+        src: url('RHD biasa.ttf');
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+}
+
+.berita-2 p{
+    position: absolute;
+    left: 43.39%;
+    right: 37.45%;
+    top: 60%;
+    bottom: 19%;
+    font-family: PT Serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.berita-2 img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 673px;
+    top: 10%;
+border-radius: 10px;
+}
+
+.berita-3{
+    margin-bottom: 50px;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 350px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
+}
+
+.berita-3 h2{
+    position: absolute;
+    left: 1.8%;
+    right: 33.16%;
+    top: 10.1%;
+    bottom: 29%;
+    @font-face {
+        font-family: Red Hat Display;
+        src: url('RHD biasa.ttf');
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+}
+
+.berita-3 p{
+    position: absolute;
+    left: 43.39%;
+    right: 37.45%;
+    top: 60%;
+    bottom: 19%;
+    font-family: PT Serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.berita-3 img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 673px;
+    top: 10%;
+border-radius: 10px;
+}
+
+.berita-4{
+    margin-bottom: 50px;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 650px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
+}
+
+.berita-4 h2{
+    position: absolute;
+    left: 1.8%;
+    right: 33.16%;
+    top: 10.1%;
+    bottom: 29%;
+    @font-face {
+        font-family: Red Hat Display;
+        src: url('RHD biasa.ttf');
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+}
+
+.berita-4 p{
+    position: absolute;
+    left: 43.39%;
+    right: 37.45%;
+    top: 60%;
+    bottom: 19%;
+    font-family: PT Serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.berita-4 img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 673px;
+    top: 10%;
+border-radius: 10px;
+}
+.rekomendasi p{
+    margin-left: 170px;
+    margin-top: 1000px;
+    font-style: bold;
+    font-size: 50px;
+    @font-face {
+        font-family: Red Hat Display;
+        src: url('RHD biasa.ttf');
+    }
+}
+.rekomendasi img{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    left: 170px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.rekomendasi .judul-berita p{
+    width: 800px;
+    position: absolute;
+left: 5%;
+right: 5.74%;
+top: 1250px;
+bottom: 6.22%;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-size: 70px;
+line-height: 70px;
+
+color: #FFFBFB;
+}
