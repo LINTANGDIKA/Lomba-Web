@@ -9,23 +9,16 @@ body {
 .container {
     padding: 2rem;
 }
-.backNavigation {
-    width:55% ;
-    margin: auto;
-}
-.backNavigation img {
-    width: 8rem;
-}
-.search {
-    width: 40%;
-    margin: auto;
-}
 .navbar-berita {
     width:55% ;
     margin: auto;
 }
 .navbar-berita img {
     width: 8rem;
+}
+.search {
+    width: 50rem;
+    margin: auto;
 }
 input[type=text] {
     width: 50rem;
@@ -60,7 +53,6 @@ input[type=text]:focus, select {
 .berita-1{
     width: 90rem;
     margin: 2rem auto;
-
 }
 .berita-1 img{
     width: 90rem;
@@ -78,175 +70,133 @@ input[type=text]:focus, select {
     font-size: 4rem;
     color: white;
 }
-.berita-2{
-    justify-items: center;
-    margin-bottom: 50px;
-    position: absolute;
-    width: 1000px;
-    height: 300px;
-    margin-left: 170px;
-    margin-top: 15px;
+.caption p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem; 
+    border-radius: 25px;
+    width: 70rem;
+    margin:2rem auto;
+    cursor: pointer;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
 }
-
-.berita-2 h2{
-    position: absolute;
-    left: 1.8%;
-    right: 33.16%;
-    top: 10.1%;
-    bottom: 29%;
-    @font-face {
-        font-family: Red Hat Display;
-        src: url('RHD biasa.ttf');
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
+.card h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
 }
-}
-
-.berita-2 p{
-    position: absolute;
-    left: 43.39%;
-    right: 37.45%;
-    top: 60%;
-    bottom: 19%;
+.card p{
     font-family: PT Serif;
-    font-size: 30px;
+    font-size: 1rem;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 3rem;
     color: rgba(0, 0, 0, 0.42);
 }
-
-.berita-2 img{
-    position: absolute;
-    width: 300px;
-    height: 250px;
-    left: 673px;
-    top: 10%;
-border-radius: 10px;
-}
-
-.berita-3{
-    margin-bottom: 50px;
-    position: absolute;
-    width: 1000px;
-    height: 300px;
-    margin-left: 170px;
-    margin-top: 350px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
-}
-
-.berita-3 h2{
-    position: absolute;
-    left: 1.8%;
-    right: 33.16%;
-    top: 10.1%;
-    bottom: 29%;
-    @font-face {
-        font-family: Red Hat Display;
-        src: url('RHD biasa.ttf');
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-}
-
-.berita-3 p{
-    position: absolute;
-    left: 43.39%;
-    right: 37.45%;
-    top: 60%;
-    bottom: 19%;
-    font-family: PT Serif;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.42);
-}
-
-.berita-3 img{
-    position: absolute;
-    width: 300px;
-    height: 250px;
-    left: 673px;
-    top: 10%;
-border-radius: 10px;
-}
-
-.berita-4{
-    margin-bottom: 50px;
-    position: absolute;
-    width: 1000px;
-    height: 300px;
-    margin-left: 170px;
-    margin-top: 650px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
-}
-
-.berita-4 h2{
-    position: absolute;
-    left: 1.8%;
-    right: 33.16%;
-    top: 10.1%;
-    bottom: 29%;
-    @font-face {
-        font-family: Red Hat Display;
-        src: url('RHD biasa.ttf');
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-}
-
-.berita-4 p{
-    position: absolute;
-    left: 43.39%;
-    right: 37.45%;
-    top: 60%;
-    bottom: 19%;
-    font-family: PT Serif;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.42);
-}
-
-.berita-4 img{
-    position: absolute;
-    width: 300px;
-    height: 250px;
-    left: 673px;
-    top: 10%;
-border-radius: 10px;
-}
-.rekomendasi p{
-    margin-left: 170px;
-    margin-top: 1000px;
-    font-style: bold;
-    font-size: 50px;
-    @font-face {
-        font-family: Red Hat Display;
-        src: url('RHD biasa.ttf');
-    }
-}
-.rekomendasi img{
-    position: absolute;
-    width: 1000px;
-    height: 700px;
-    left: 170px;
-    margin-top: 30px;
+.card img{
+    width: 15rem;
     border-radius: 10px;
 }
-
-.rekomendasi .judul-berita p{
-    width: 800px;
+.teksCard {
+    padding: 1rem;
+}
+.rekomendasi {
+    width: 90rem;
+    margin: auto;
+    position: relative;
+}
+.rekomendasi h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.rekomendasi img {
+    width: 90rem;
+}
+.captionRekomendasi {
+    width: 60%;
     position: absolute;
-left: 5%;
-right: 5.74%;
-top: 1250px;
-bottom: 6.22%;
+    bottom: 2rem;
+    left: 2rem;
+}
+.captionRekomendasi h1{
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.beritaAkhir{
+    display: flex;
+    justify-content: space-around;
+}
+.cardBeritaAkhir{
+    margin: 5rem auto;
+    width: 25rem;
+    background-color:#F6F5F5;
+    border-radius: 25px; 
+    padding-bottom: 2rem;
+    box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.3);
+    animation: 3s pindah infinite;
+}
+.cardBeritaAkhir img {
+    border-radius: 25px 25px 0px 0px ; 
+    width: 25rem;
+    height: 15rem;
+}
+.cardBeritaAkhir p {
+    padding: 1rem;
+    margin-bottom: 4rem ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.buttonBeritaAkhir {
+    width: 12rem;
+    margin: auto;
+}
+.cardBeritaAkhir button {
+    width: 12rem;
+    height: 3rem;
+    padding: 0.8rem 2rem;
+    border-radius: 0.8rem;
+    background-color: #FFA400;
+    border: none;
+}
+.cardBeritaAkhir button a {
+    text-decoration: none;
+    color: white;
+}
+.cardBeritaAkhir:nth-child(1){
+    transform: translateY(8rem);
+    
+}
+.dua{
+    animation: 3s pindah1 infinite;
+}
+.cardBeritaAkhir:nth-child(3){
+    transform: translateY(8rem);
+}
+.tiga{
+    animation: 3s pindah infinite;
+}
 
-font-family: Red Hat Display;
-font-style: normal;
-font-size: 70px;
-line-height: 70px;
-
-color: #FFFBFB;
+@keyframes pindah1 {
+    50% {
+        transform: translateY(8rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes pindah {
+    50%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(8rem);
+        
+    }
 }
