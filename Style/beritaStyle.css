@@ -10,18 +10,18 @@ body {
     padding: 2rem;
 }
 .navbar-berita {
-    width:55% ;
-    margin: auto;
+    width:90rem ;
+    margin: 1.5rem auto;
 }
 .navbar-berita img {
     width: 8rem;
 }
 .search {
-    width: 50rem;
+    width: 90rem;
     margin: auto;
 }
 input[type=text] {
-    width: 50rem;
+    width: 90rem;
     padding: 1.5rem 2rem;
     background-image: url(/Image/search-icon-png-9972.png);
     background-size:6rem;
@@ -72,7 +72,7 @@ input[type=text]:focus, select {
 }
 .caption p {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .card{
@@ -80,7 +80,7 @@ input[type=text]:focus, select {
     justify-content: space-between;
     padding: 2rem; 
     border-radius: 25px;
-    width: 70rem;
+    width: 85rem;
     margin:2rem auto;
     cursor: pointer;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
@@ -131,6 +131,8 @@ input[type=text]:focus, select {
 .beritaAkhir{
     display: flex;
     justify-content: space-around;
+    width: 90rem;
+    margin: auto;
 }
 .cardBeritaAkhir{
     margin: 5rem auto;
@@ -139,7 +141,6 @@ input[type=text]:focus, select {
     border-radius: 25px; 
     padding-bottom: 2rem;
     box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.3);
-    animation: 3s pindah infinite;
 }
 .cardBeritaAkhir img {
     border-radius: 25px 25px 0px 0px ; 
@@ -167,37 +168,8 @@ input[type=text]:focus, select {
 }
 .cardBeritaAkhir button a {
     text-decoration: none;
-    color: white;
-    
+    color: white;   
 }
-.cardBeritaAkhir:nth-child(1){
-    transform: translateY(8rem);
-    
-}
-.dua{
-    animation: 3s pindah1 infinite;
-}
-.cardBeritaAkhir:nth-child(3){
-    transform: translateY(8rem);
-}
-.tiga{
-    animation: 3s pindah infinite;
-}
-
-@keyframes pindah1 {
-    50% {
-        transform: translateY(8rem);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-@keyframes pindah {
-    50%{
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(8rem);
-        
-    }
+.cardBeritaAkhir:nth-child(2) button {
+    margin-top: 2rem;
 }
