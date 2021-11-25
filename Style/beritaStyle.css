@@ -7,14 +7,15 @@ body {
     background-color: #F6F5F5;
 }
 .container {
-    padding: 2rem;
+    padding: 2 rem;
 }
 .navbar-berita {
     width:90rem ;
     margin: 1.5rem auto;
 }
 .navbar-berita img {
-    width: 8rem;
+    margin-top: 10px;
+    width: 5rem;
 }
 .search {
     width: 90rem;
@@ -26,14 +27,12 @@ input[type=text] {
     background-image: url(/Image/search-icon-png-9972.png);
     background-size:6rem;
     background-color: #DDDDDD;
-    background-position-x: right;  
-    background-position-y: center;
-    background-repeat: no-repeat;
-    margin: 1rem 0;
+    background-repeat: no-repeat;;
     border: 1px solid #DDDDDD;
     border-radius: 1rem;
     box-sizing: border-box;
     font-size: 2rem;
+    margin: auto;
     font-family: Red Hat Display;
 }
 input[type=text]:focus, select {
@@ -51,31 +50,30 @@ input[type=text]:focus, select {
     font-family: 'Red Hat Display', sans-serif;
 }
 .berita-1{
-    width: 90rem;
-    margin: 2rem auto;
+    width: 70rem;
+    margin : auto;
 }
 .berita-1 img{
-    width: 90rem;
-    height:auto ;
+    margin-bottom: -25rem;
+    width: 70rem;
+    height: 37rem;
 }
-
-.caption {
-    position: absolute;
-    bottom: -25rem;
-    width: 45%;
-    margin: 2rem 5rem;
-}
-.caption h1{
+.berita-1 h1{
+    margin-left: 2rem;
+    width: 60%;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 4rem;
     color: white;
 }
-.caption p {
+.berita-1 p {
+    margin-left: 2rem;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .card{
+    
     display: flex;
     justify-content: space-between;
     padding: 2rem; 
@@ -106,21 +104,21 @@ input[type=text]:focus, select {
     padding: 1rem;
 }
 .rekomendasi {
-    width: 90rem;
+    width: 70rem;
     margin: auto;
-    position: relative;
 }
 .rekomendasi h1 {
+    width: 100%;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 4rem;
-    margin: 2rem 0;
+    margin-left: 3rem;
 }
 .rekomendasi img {
-    width: 90rem;
+    margin-bottom: -25rem;
+    width: 70rem;
 }
 .captionRekomendasi {
     width: 60%;
-    position: absolute;
     bottom: 2rem;
     left: 2rem;
 }
