@@ -3,24 +3,226 @@
     padding: 0;
 }
 body{
-    height: 100%;
     background-color: #F6F5F5;
 }
 .container{
-  
     padding: 2rem;
 }
 .navigasi{
-    align-items: center;
-    display: flex;
-    width: 100%;
-    margin: auto;
+    margin-top: 1rem;
+    height: 10rem;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navigasi img{
-    width: 50px;
-    height: 50px;
+    height: 6rem;
+    margin-left: 1rem;
+    width: 6rem;
 }
 .navigasi  p{
-    font-size: 50px;
+    margin-top: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: 20rem;
     float: right;
+    font-size: 3rem;
+}
+.image-header{
+    height: 50rem;
+    margin: auto;
+    width: 70rem;
+}
+
+.image img
+{    
+    height: 50rem;
+    width: 70rem;
+}
+.info-tempatvaksin{
+    margin-top: 37rem;
+    position: absolute;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+}
+.info-tempatvaksin img{
+    width: 70rem;
+    height: 13rem;
+}
+.info-tempatvaksin p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-family: Red Hat Display;
+    position:absolute;
+}
+.info-tempatvaksin h3{
+    font-family: Red Hat Display;
+    position: absolute;
+    color: black;
+    margin-top: 6.3rem;
+    margin-left: 2rem;
+}
+.lebih-lanjut{
+    margin-left: 60rem;
+    margin-top: 2rem;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+}
+.lebih-lanjut img{
+    width: 6rem;
+    height: 6rem;
+}
+.textbox-nama{
+    width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.textbox-nama input[type=text]{
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1.5rem 2rem;
+    background-size:6rem;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto;
+    width: 70rem;
+}
+input[type=text]:focus, select {
+    outline: none
+}
+::placeholder { 
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.textbox-tanggallahir{
+    width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.textbox-tanggallahir input[type=text]{
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1.5rem 2rem;
+    background-size:6rem;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto;
+    width: 70rem;
+}
+.textbox-Umur{
+    width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.textbox-Umur input[type=text]{
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1.5rem 2rem;
+    background-size:6rem;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto;
+    width: 70rem;
+}
+.textbox-AlamatRumah{
+    width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.textbox-AlamatRumah input[type=text]{
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1.5rem 2rem;
+    background-size:6rem;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto;
+    width: 70rem;
+}
+.textbox-Ktp{
+    width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.textbox-Ktp input[type=text]{
+    font-weight: bold;
+    color:#0000008f;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1.5rem 2rem;
+    background-size:6rem;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto;
+    width: 70rem;
+}
+.footer{
+    width: 70rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.footer img{
+    width: 70rem;
+    height:10rem;
+}
+.buttonBerita {
+    position: absolute;
+    margin-left: -15rem;
+    margin-top: 3.5rem;
+    width: 9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #FFA400;
+    border: none;
+    height: 4rem;
+
+}
+.buttonBerita a{
+    color: white;
+    text-decoration: none;
+}
+.footer p{
+    color: #FFFFFF;
+    font-family: Red Hat Display;
+    font-size: 3rem;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 3rem;
+}
+.footer h3{
+    position:absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    margin-left: 2rem;
+    margin-top: 6.3rem;
+    font-family: Red Hat Display;
 }

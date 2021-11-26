@@ -375,7 +375,7 @@ body {
 }
 .buttonBerita {
     width: 15%;
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.8rem;
     background-color: #FFA400;
     border: none;
@@ -389,9 +389,6 @@ body {
     text-decoration: none;
 }
 /* Akhir Berita Style */
-.tutorial{
-    padding: 2rem;
-}
 .tutorialImg {
     width: 70rem;
     margin:auto ;
