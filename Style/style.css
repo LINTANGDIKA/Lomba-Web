@@ -537,6 +537,43 @@ footer {
     }
 }
 @media only screen and (max-width : 1075px) {
+    .judulContent {
+        font-size: 2rem;
+    }
+    #berita{
+        padding: 1rem;
+    }
+    .beritaa img {
+        width: 22rem;
+    }
+    .gambar img {
+        width: 23rem;
+    }
+    .content{
+        height: 23rem;
+    }
+    .progress-bar {
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        grid-template-rows: 2fr;
+        grid-template-areas: 
+        "content1 content2"
+        "content3 content3"
+        ;
+        margin: auto;
+    }
+    .pertama {
+        grid-area: content1;
+        margin: auto;
+    }
+    .kedua  {
+        grid-area: content2;
+        margin: auto;
+    }
+    .ketiga  {
+        grid-area: content3;
+        margin: 2rem auto;
+    }
     .list li a:hover{
         width: auto;
         background-color: #193498;
@@ -567,5 +604,48 @@ footer {
     .slide {
         transform: translateX(0);
         opacity: 1;
+    }
+    .burger {
+        margin: 3rem 0;
+    }
+    .burger span {
+        width: 4rem;
+        height: 0.5rem;
+        margin : 0.3rem 3rem
+    }
+    .teksk {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width : 905px) { 
+    .sinovac {
+        padding: 1.5rem;
+    }
+    .moderna {
+        padding: 1.5rem;
+    }
+    .astrazeneca {
+        padding: 1.5rem;
+    }
+    .teksBerita h1 {
+        font-size: 1.4rem;
+    }
+    .tutorialImg {
+        width: 40rem;
+    }
+    .gambarOrang {
+        width: 40rem;
+    }
+    .gambar img {
+        width: 20rem;
+    }
+    .judulContent {
+        font-size: 1.7rem;
+    }
+    .teksk {
+        font-size: 10px;
+    }
+    .content{
+        height: 20rem;
     }
 }
