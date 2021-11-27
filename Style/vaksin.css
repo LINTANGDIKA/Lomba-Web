@@ -226,3 +226,1598 @@ input[type=text]:focus, select {
     margin-top: 6.3rem;
     font-family: Red Hat Display;
 }
+@media screen and (max-width: 1470px){
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 68rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 68rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 68rem;
+    }
+    .info-tempatvaksin img{
+        width: 68rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 58rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+        width: 68rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:68rem;
+    }
+    .textbox-tanggallahir{
+        width: 68rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 68rem;
+    }
+    .textbox-Umur{
+        width: 68rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 68rem;
+    }
+    .textbox-AlamatRumah{
+        width: 68rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 68rem;
+    }
+    .textbox-Ktp{
+        width: 68rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 68rem;
+    }
+    .footer{
+        width: 68rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+        width: 68rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 1400px){
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 65rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 65rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65rem;
+    }
+    .info-tempatvaksin img{
+        width: 65rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 55rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+        width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:65rem;
+    }
+    .textbox-tanggallahir{
+        width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 65rem;
+    }
+    .textbox-Umur{
+        width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 65rem;
+    }
+    .textbox-AlamatRumah{
+        width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 65rem;
+    }
+    .textbox-Ktp{
+        width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 65rem;
+    }
+    .footer{
+        width: 65rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+        width: 65rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media  screen and (max-width: 1300px){
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 25rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 60rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 60rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60rem;
+    }
+    .info-tempatvaksin img{
+        width: 60rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 50rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+        width: 60rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:60rem;
+    }
+    .textbox-tanggallahir{
+        width: 60rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 60rem;
+    }
+    .textbox-Umur{
+        width: 60rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 60rem;
+    }
+    .textbox-AlamatRumah{
+        width: 60rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 60rem;
+    }
+    .textbox-Ktp{
+        width: 60rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width: 60rem;
+    }
+    .footer{
+        width: 60rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+        width: 60rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 1200px){
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 27rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 55rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 55rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+          width: 55rem;
+    }
+    .info-tempatvaksin img{
+          width: 55rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 45rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+         width: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:68rem;
+    }
+    .textbox-tanggallahir{
+          width: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 55rem;
+    }
+    .textbox-Umur{
+          width: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 55rem;
+    }
+    .textbox-AlamatRumah{
+          width: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 55rem;
+    }
+    .textbox-Ktp{
+          width: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 55rem;
+    }
+    .footer{
+          width: 55rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+          width: 55rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 1100px){
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 27rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 50rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 50rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+          width: 50rem;
+    }
+    .info-tempatvaksin img{
+          width: 50rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 43rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+         width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:50rem;
+    }
+    .textbox-tanggallahir{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Umur{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-AlamatRumah{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Ktp{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .footer{
+          width: 50rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+          width: 50rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 992px){
+    .navigasi img{
+        height: 5rem;
+        margin-left: 1rem;
+        width: 5rem;
+    }
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 30rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 40rem;
+        margin: auto;
+        width: 45rem;
+    }
+    
+    .image img
+    {    
+        height: 40rem;
+        width: 45rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 32rem;
+        position: absolute;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+          width: 45rem;
+    }
+    .info-tempatvaksin img{
+          width: 45rem;
+        height: 10rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 38rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .textbox-nama{
+         width: 45rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:45rem;
+    }
+    .textbox-tanggallahir{
+           width: 45rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+           width: 45rem;
+    }
+    .textbox-Umur{
+           width: 45rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+           width: 45rem;
+    }
+    .textbox-AlamatRumah{
+           width: 45rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+           width: 45rem;
+    }
+    .textbox-Ktp{
+           width: 45rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+           width: 45rem;
+    }
+    .footer{
+           width: 45rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+           width: 45rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 768px){
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 27rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 50rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 50rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+          width: 50rem;
+    }
+    .info-tempatvaksin img{
+          width: 50rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 43rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+         width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:50rem;
+    }
+    .textbox-tanggallahir{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Umur{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-AlamatRumah{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Ktp{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .footer{
+          width: 50rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+          width: 50rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+@media screen and (max-width: 576px){
+    .navigasi  p{
+        margin-top: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 27rem;
+        float: right;
+        font-size: 3rem;
+    }
+    .image-header{
+        height: 50rem;
+        margin: auto;
+        width: 50rem;
+    }
+    
+    .image img
+    {    
+        height: 50rem;
+        width: 50rem;
+    }
+    .info-tempatvaksin{
+        margin-top: 37rem;
+        position: absolute;
+        height: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+          width: 50rem;
+    }
+    .info-tempatvaksin img{
+          width: 50rem;
+        height: 13rem;
+    }
+    .info-tempatvaksin p{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        font-family: Red Hat Display;
+        position:absolute;
+    }
+    .info-tempatvaksin h3{
+        font-family: Red Hat Display;
+        position: absolute;
+        color: black;
+        margin-top: 6.3rem;
+        margin-left: 1.5rem;
+    }
+    .lebih-lanjut{
+        margin-left: 43rem;
+        margin-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+    }
+    .lebih-lanjut img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .textbox-nama{
+         width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-nama input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+        width:50rem;
+    }
+    .textbox-tanggallahir{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-tanggallahir input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Umur{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Umur input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-AlamatRumah{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-AlamatRumah input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .textbox-Ktp{
+          width: 50rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .textbox-Ktp input[type=text]{
+        font-weight: bold;
+        color:#0000008f;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 1.5rem 2rem;
+        background-size:6rem;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin: auto;
+          width: 50rem;
+    }
+    .footer{
+          width: 50rem;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .footer img{
+          width: 50rem;
+        height:10rem;
+    }
+    .buttonBerita {
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+        width: 9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #FFA400;
+        border: none;
+        height: 4rem;
+    
+    }
+    .buttonBerita a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        color: #FFFFFF;
+        font-family: Red Hat Display;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: absolute;
+        margin-top: 3rem;
+    }
+    .footer h3{
+        position:absolute;
+        color: #FFFFFF;
+        font-style: normal;
+        margin-left: 2rem;
+        margin-top: 6.3rem;
+        font-family: Red Hat Display;
+    }
+}
+
+
+
+
