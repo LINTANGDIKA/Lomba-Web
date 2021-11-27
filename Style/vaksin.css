@@ -14,6 +14,8 @@ body{
     width: 70rem;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .navigasi img{
     height: 6rem;
@@ -813,6 +815,10 @@ input[type=text]:focus, select {
     }
 }
 @media screen and (max-width: 1200px){
+    .navigasi {
+        width: 65rem;
+        margin: auto;
+    }
     .navigasi  p{
         margin-top: 1rem;
         font-family: 'Red Hat Display', sans-serif;
@@ -886,7 +892,7 @@ input[type=text]:focus, select {
         box-sizing: border-box;
         font-size: 2rem;
         margin: auto;
-        width:68rem;
+        width:55rem;
     }
     .textbox-tanggallahir{
           width: 55rem;
@@ -1013,17 +1019,19 @@ input[type=text]:focus, select {
     }
 }
 @media screen and (max-width: 1100px){
+    .navigasi {
+        width: 60rem;
+    }
     .navigasi  p{
         margin-top: 1rem;
         font-family: 'Red Hat Display', sans-serif;
         margin-right: 27rem;
         float: right;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .image-header{
-        height: 50rem;
-        margin: auto;
         width: 50rem;
+        margin: auto;
     }
     
     .image img
@@ -1213,6 +1221,9 @@ input[type=text]:focus, select {
     }
 }
 @media screen and (max-width: 992px){
+    .navigasi {
+        width: 55rem;
+    }
     .navigasi img{
         height: 5rem;
         margin-left: 1rem;
@@ -1223,7 +1234,7 @@ input[type=text]:focus, select {
         font-family: 'Red Hat Display', sans-serif;
         margin-right: 30rem;
         float: right;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .image-header{
         height: 40rem;
