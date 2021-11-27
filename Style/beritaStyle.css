@@ -524,19 +524,35 @@ input[type=text]:focus, select {
     .card:nth-child(2) img {
         height: 15rem;
     }
-    
+    .rekomendasi {
+        width: 50rem;
+        margin: auto;
+    }
+    .rekomendasi img {
+        margin-bottom: -25rem;
+        width: 50rem;
+    }
+    .captionRekomendasi{
+        width: 70%;
+    }
+    .captionRekomendasi h1 {
+        font-size: 3.4rem;
+    }
     .rekomendasi h1 {
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-family: 'Red Hat Display', sans-serif;
-        font-size: 4rem;
+        font-size: 3rem;
         margin-left: 3rem;
     }
     .beritaAkhir{
         display: flex;
         width: 53rem;
         justify-content: space-between;
-        margin: 6rem auto;
+        margin-top: 11rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
         overflow-x: auto;
     }
     .beritaAkhir::-webkit-scrollbar{
@@ -561,26 +577,7 @@ input[type=text]:focus, select {
         height: 15rem;
     }
 
-    .rekomendasi {
-        width: 50rem;
-        margin: auto;
-    }
-    .rekomendasi h1 {
-        width: 100%;
-        font-family: 'Red Hat Display', sans-serif;
-        font-size: 3rem;
-        margin-left: 3rem;
-    }
-    .rekomendasi img {
-        margin-bottom: -25rem;
-        width: 50rem;
-    }
-    .captionRekomendasi{
-        width: 70%;
-    }
-    .captionRekomendasi h1 {
-        font-size: 3.4rem;
-    }
+    
 }
 @media only screen and (max-width: 960px){
     .container {
@@ -674,18 +671,12 @@ input[type=text]:focus, select {
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-family: 'Red Hat Display', sans-serif;
-        font-size: 4rem;
-        margin-left: 3rem;
+        font-size: 2.5rem;
+        margin-left: 2rem;
     }
     .rekomendasi {
         width: 40rem;
         margin: auto;
-    }
-    .rekomendasi h1 {
-        width: 100%;
-        font-family: 'Red Hat Display', sans-serif;
-        font-size: 2.5rem;
-        margin-left: 2rem;
     }
     .rekomendasi img {
         margin-bottom: -25rem;
@@ -702,7 +693,10 @@ input[type=text]:focus, select {
         display: flex;
         width: 43rem;
         justify-content: space-between;
-        margin: 6rem auto;
+        margin-top: 8rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
         overflow-x: auto;
     }
     .beritaAkhir::-webkit-scrollbar{
@@ -738,8 +732,7 @@ input[type=text]:focus, select {
         margin: 1.5rem auto;
     }
     .navbar-berita img {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 0;
         width: 5rem;
     }
     .search {
@@ -750,8 +743,8 @@ input[type=text]:focus, select {
         width: 35rem;
         padding: 1.9rem 2rem;
         background-image: url(/Image/search-icon-png-9972.png);
-        background-size:7rem;
-        font-size: 1.5rem;
+        background-size:6rem;
+        font-size: 1.3rem;
     }
     .judul h1{
         font-size: 3rem;
@@ -803,36 +796,39 @@ input[type=text]:focus, select {
         margin-right: 3rem;
         color: rgba(0, 0, 0, 0.42);
     }
+    .card:nth-child(2) {
+        height: 10rem;
+    }
+    .card:nth-child(3) {
+        height: 10rem;
+    }
     .card:nth-child(2) p {
-        margin-top: 8rem;
+        margin-top: 4rem;
     }
     .card:nth-child(3) p {
-        margin-top: 7rem;
+        margin-top: 4.3rem;
     }
     .card img{
         width: 10rem;
         border-radius: 10px;
     }
-    .card:nth-child(2) img {
-        height: 13rem;
-    }
     
+    .card:nth-child(2) img {
+        height: 10rem;
+    }
+    .card:nth-child(3) img {
+        height: 10rem;
+    }
     .rekomendasi h1 {
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-family: 'Red Hat Display', sans-serif;
-        font-size: 4rem;
-        margin-left: 3rem;
+        font-size: 2.5rem;
+        margin-left: 2rem;
     }
     .rekomendasi {
         width: 35rem;
         margin: auto;
-    }
-    .rekomendasi h1 {
-        width: 100%;
-        font-family: 'Red Hat Display', sans-serif;
-        font-size: 2.5rem;
-        margin-left: 2rem;
     }
     .rekomendasi img {
         margin-bottom: -25rem;
@@ -849,7 +845,10 @@ input[type=text]:focus, select {
         display: flex;
         width: 30rem;
         justify-content: space-between;
-        margin: 6rem auto;
+        margin-top: 8rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
         overflow-x: auto;
     }
     .beritaAkhir::-webkit-scrollbar{
@@ -894,5 +893,372 @@ input[type=text]:focus, select {
     }
     .cardBeritaAkhir:nth-child(2) button {
         margin-top: 1.4rem;
+    }
+}
+@media only screen and (max-width: 650px){
+    .container {
+        padding: 1rem;
+        overflow-x: hidden;
+    }
+    .navbar-berita {
+        width:30rem ;
+        margin: 1.5rem auto;
+    }
+    .navbar-berita img {
+        margin: 0;
+        width: 5rem;
+    }
+    .search {
+        width: 30rem;
+        margin: auto;
+    }
+    input[type=text] {
+        width: 30rem;
+        padding: 1.4rem 2rem;
+        background-image: url(/Image/search-icon-png-9972.png);
+        background-size:5rem;
+        font-size: 1.3rem;
+    }
+    .judul h1{
+        font-size: 3rem;
+    }
+    .berita-1{
+        width: 30rem;
+        margin : auto;
+    }
+    .berita-1 img{
+        margin-bottom: -12rem;
+        width: 30rem;
+    }
+    .berita-1 h1{
+        margin-left: 2rem;
+        width: 60%;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1.6rem;
+        color: white;
+    }
+    .berita-1 p {
+        margin-left: 2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .card-Berita {
+        margin-top:5rem ;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.4rem; 
+        border-radius: 25px;
+        width: 26rem;
+        margin:2rem auto;
+        cursor: pointer;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
+    }
+    .card h2{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .card p{
+        font-family: PT Serif;
+        font-size: 0.8rem;
+        float: right;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        color: rgba(0, 0, 0, 0.42);
+    }
+    .card:nth-child(1) {
+        height: 9rem;
+    }
+    .card:nth-child(2) {
+        height: 9rem;
+    }
+    .card:nth-child(3) {
+        height: 9rem;
+    }
+    .card:nth-child(2) p {
+        margin-top: 3rem;
+    }
+    .card:nth-child(3) p {
+        margin-top: 3.3rem;
+    }
+    .card img{
+        width: 9rem;
+        border-radius: 10px;
+    }
+    .card:nth-child(1) img {
+        height: 9rem;
+    }
+    .card:nth-child(2) img {
+        height: 9rem;
+    }
+    .card:nth-child(3) img {
+        height: 9rem;
+    }
+    .rekomendasi h1 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .rekomendasi {
+        width: 30rem;
+        margin: auto;
+    }
+    .rekomendasi img {
+        margin-bottom: -25rem;
+        width: 30rem;
+    }
+    .captionRekomendasi{
+        width: 80%;
+        margin-top: 9rem;
+    }
+    .captionRekomendasi h1 {
+        font-size: 2.3rem;
+    }
+    .beritaAkhir{
+        display: flex;
+        width: 25rem;
+        justify-content: space-between;
+        margin-top: 8rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    .beritaAkhir::-webkit-scrollbar{
+        width: 1rem;
+    }
+    .beritaAkhir::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        background-color: #f5f5f500;
+    }
+    .beritaAkhir::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.397);
+        border-radius: 20px;
+        width: 1rem;
+    }
+    .cardBeritaAkhir{
+        margin: 3rem ;
+        width:16rem;
+    }
+    .cardBeritaAkhir img {
+        border-radius: 25px 25px 0px 0px ; 
+        width: 16rem;
+        height: 11rem;
+    }
+    .cardBeritaAkhir p {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .buttonBeritaAkhir {
+        width: 10rem;
+        margin: auto;
+    }
+    .cardBeritaAkhir button {
+        width: 10rem;
+        height: 2.5rem;
+        padding: 0.5rem 2rem;
+        border-radius: 0.8rem;
+        background-color: #FFA400;
+        border: none;
+    }
+    .cardBeritaAkhir:nth-child(2) button {
+        margin-top: 1.4rem;
+    }
+}
+@media only screen and (max-width: 530px){
+    .container {
+        padding: 1rem;
+        overflow-x: hidden;
+    }
+    .navbar-berita {
+        width:22rem ;
+        margin: 1.5rem auto;
+    }
+    .navbar-berita img {
+        margin: 0;
+        width: 4rem;
+    }
+    .search {
+        width: 22rem;
+        margin: auto;
+    }
+    input[type=text] {
+        width: 22rem;
+        padding: 1rem 2rem;
+        background-image: url(/Image/search-icon-png-9972.png);
+        background-size:4rem;
+        font-size: 1rem;
+    }
+    .judul{
+        margin: 1rem 0;
+    }
+    .judul h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .berita-1{
+        width: 22rem;
+        margin : auto;
+    }
+    .berita-1 img{
+        margin-bottom: -8rem;
+        width: 22rem;
+    }
+    .berita-1 h1{
+        margin-left: 2rem;
+        width: 60%;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1rem;
+        color: white;
+    }
+    .berita-1 p {
+        margin-left: 2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 0.5rem;
+        font-weight: bold;
+    }
+    .card-Berita {
+        margin-top:5rem ;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem; 
+        border-radius: 25px;
+        width: 17rem;
+        margin:2rem auto;
+        cursor: pointer;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #DBDBDB 100%);
+    }
+    .card h2{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size:0.7rem;
+        cursor: pointer;
+    }
+    .card p{
+        font-family: PT Serif;
+        font-size: 0.5rem;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        color: rgba(0, 0, 0, 0.42);
+    }
+    .card:nth-child(1) {
+        height: 5rem;
+    }
+    .card:nth-child(2) {
+        height: 5rem;
+    }
+    .card:nth-child(3) {
+        height: 5rem;
+    }
+    .card:nth-child(2) p {
+        margin-top: 1rem;
+    }
+    .card:nth-child(3) p {
+        margin-top: 1.3rem;
+    }
+    .card img{
+        width: 6rem;
+        border-radius: 10px;
+    }
+    .card:nth-child(1) img {
+        height: 5rem;
+    }
+    .card:nth-child(2) img {
+        height: 5rem;
+    }
+    .card:nth-child(3) img {
+        height: 5rem;
+    }
+    .rekomendasi h1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .rekomendasi {
+        width: 22rem;
+        margin: auto;
+    }
+    
+    .rekomendasi img {
+        margin-bottom: -17rem;
+        width: 22rem;
+    }
+    .captionRekomendasi{
+        width: 80%;
+        margin-top: 9rem;
+    }
+    .captionRekomendasi h1 {
+        font-size: 1.3rem;
+    }
+    .beritaAkhir{
+        display: flex;
+        width: 20rem;
+        justify-content: space-between;
+        margin-top: 8rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    .beritaAkhir::-webkit-scrollbar{
+        width: 1rem;
+    }
+    .beritaAkhir::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        background-color: #f5f5f500;
+    }
+    .beritaAkhir::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.397);
+        border-radius: 20px;
+        width: 1rem;
+    }
+    .cardBeritaAkhir{
+        margin: 2rem ;
+        width:13rem;
+    }
+    .cardBeritaAkhir img {
+        border-radius: 25px 25px 0px 0px ; 
+        width: 13rem;
+        height: 9rem;
+    }
+    .cardBeritaAkhir p {
+        padding: 1rem;
+        margin-bottom: 0;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .buttonBeritaAkhir {
+        width: 8rem;
+        margin: auto;
+    }
+    .cardBeritaAkhir button {
+        width: 8rem;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.8rem;
+        background-color: #FFA400;
+        border: none;
+    }
+    .cardBeritaAkhir:nth-child(1) button {
+        margin-top: 1.4rem;
+    }
+    .cardBeritaAkhir:nth-child(2) button {
+        margin-top: 1.4rem;
+    }
+    .cardBeritaAkhir:nth-child(3) button {
+        margin-top :0.2rem;;
     }
 }
