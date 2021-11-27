@@ -75,6 +75,7 @@ body {
     margin: 2rem 1.5rem;
     border-radius: 2rem;
 }
+
 .isi{
     padding:3rem ;
     display: grid;
@@ -448,3 +449,494 @@ footer {
     text-decoration: none;
 }
 
+@media only screen and (max-width:1200px){
+    .isi{
+        padding:3rem ;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .judulContent {
+        color: white;
+        font-size: 3rem;
+    }
+    .button {
+        width: auto;
+        padding: 0.8rem 2rem;
+        border-radius: 0.8rem;
+        background-color: #FFA400;
+        border: none;
+        margin-top: 2rem;
+        margin-bottom: 7rem;
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+    }
+    .teksk{
+        color: white;
+        font-size: 15px;
+    }
+    .gambar img {
+        width: 31rem;
+    }   
+.img{
+    border-radius: 25%;
+    padding: 0.5rem;
+    background-color: #FFA400;
+}
+.img img {
+    width: 3rem;
+    height: 3rem;
+}
+.sinovac {
+    width: 15rem;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 25px;
+}
+.sinovac h1 {
+    color: #0F044C;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.sinovac p {
+    color: #0F044C;
+    margin: 1rem;
+    font-size: 10px;
+}
+.moderna {
+    width: 15rem;
+    height: 12rem;
+    background-color: #0F044C;
+    padding: 2rem;
+    border-radius: 25px;
+    color: white;
+}
+.moderna h1 {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.moderna p { 
+    margin: 1rem;
+    font-size: 8px;
+}
+.img1{
+    border-radius: 25%;
+    padding: 0.5rem;
+    background-color: #ffffff;
+}
+.img1 img {
+    width: 3rem;
+    height: 3rem;
+}
+.astrazeneca {
+    width: 15rem;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 25px;
+}
+.astrazeneca h1 {
+    color: #0F044C;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.astrazeneca p {
+    color: #0F044C;
+    margin: 1rem;
+    font-size: 10px;
+}
+.tutorialImg {
+    width: 60rem;
+    margin:auto ;
+}
+.gambarOrang {
+    width: 70rem;
+}
+.teksTutorial {
+    text-align: center;
+    margin: 2rem 0;
+}
+.teksTutorial h1 {
+    margin: 1rem 0;
+}
+.teksTutorial ul {
+    font-style: italic;
+    font-family: Poppins;
+    font-size: 1.3rem;
+}
+.teksTutorial li {
+    list-style-position: inside;
+    margin: 1rem 0;
+}
+
+}
+
+@media only screen and (max-width: 1100px){
+    .isi{
+        padding:3rem ;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .judulContent {
+        color: white;
+        font-size: 2rem;
+    }
+    .button {
+        width: auto;
+        padding: 0.8rem 2rem;
+        border-radius: 0.8rem;
+        background-color: #FFA400;
+        border: none;
+        margin-top: 2rem;
+        margin-bottom: 7rem;
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+    }
+    .teksk{
+        color: white;
+        font-size: 15px;
+    }
+    .gambar img {
+        width: 25rem;
+    }
+    .tutorialImg {
+        width: 47rem;
+        margin:auto ;
+    }
+    .gambarOrang {
+        width: 47rem;
+    }
+    .teksTutorial {
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .teksTutorial h1 {
+        margin: 1rem 0;
+    }
+    .teksTutorial ul {
+        font-style: italic;
+        font-family: Poppins;
+        font-size: 1rem;
+    }
+    .teksTutorial li {
+        list-style-position: inside;
+        margin: 0.4rem 0;
+    }
+    #berita{
+        width: auto;
+        height: auto;
+        background-image: linear-gradient(to bottom right, #000000, #193498);
+        border-radius: 25px;
+        padding: 2rem;
+        margin: 4rem 0;
+    }
+    .beritaa{
+        display: flex;
+        margin: 2rem 0;
+    }
+    .beritaa img {
+        width: 20rem;
+    }
+    .teksBerita{
+        color: white;
+        margin-left: 2rem;
+    }
+    .teksBerita h1{
+        font-size:20px;
+    }
+    .isibe{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+    .teksBerita p {
+        margin: 0.3rem 0;
+    }
+    .sinovac {
+        width: 15rem;
+        height: 12rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        border-radius: 25px;
+    }
+    .sinovac h1 {
+        font-size:30px;
+        color: #0F044C;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .sinovac p {
+        color: #0F044C;
+        margin: 1rem;
+        font-size: 10px;
+    }
+    .moderna {
+        width: 15rem;
+        height: 12rem;
+        background-color: #0F044C;
+        padding: 2rem;
+        border-radius: 25px;
+        color: white;
+    }
+    .moderna h1 {
+        font-size:30px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .moderna p { 
+        margin: 1rem;
+        font-size: 8px;
+    }
+    .img1{
+        border-radius: 25%;
+        padding: 0.5rem;
+        background-color: #ffffff;
+    }
+    .img1 img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .astrazeneca {
+        width: 15rem;
+        height: 12rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        border-radius: 25px;
+    }
+    .astrazeneca h1 {
+        font-size:25px;
+        color: #0F044C;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .astrazeneca p {
+        color: #0F044C;
+        margin: 1rem;
+        font-size: 10px;
+    }
+    
+    footer {
+        width: auto;
+        /* height: 20rem; */
+        background-image: linear-gradient(to bottom right, #000000, #193498);
+        padding: 1.5rem;
+    }
+    .isiFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gambarFooter img{
+        width: 20rem;
+    }
+    
+    .contentFooter {
+        margin-top: 3rem;
+    }
+    .contentFooter h1:nth-child(1){
+        color: white;
+        text-align: right;
+    }
+    .contentFooter h1:nth-child(3){
+        color: white;
+        text-align: right;
+        
+    }
+    .contentFooter img {
+        float: right;
+        padding-right:10px;
+        width: 5rem;
+        margin-top: 5rem ;
+    }
+    .info a{
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    .isi{
+        padding:3rem ;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .judulContent {
+        color: white;
+        font-size: 2rem;
+    }
+    .button {
+        width: auto;
+        padding: 0.8rem 2rem;
+        border-radius: 0.8rem;
+        background-color: #FFA400;
+        border: none;
+        margin-top: 2rem;
+        margin-bottom: 7rem;
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+    }
+    .teksk{
+        color: white;
+        font-size: 15px;
+    }
+    .gambar img {
+        width: 20rem;
+    }
+    .tutorialImg {
+        width: 45rem;
+        margin:auto ;
+    }
+    .gambarOrang {
+        width: 43rem;
+    }
+    .teksTutorial {
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .teksTutorial h1 {
+        margin: 1rem 0;
+    }
+    .teksTutorial ul {
+        font-style: italic;
+        font-family: Poppins;
+        font-size: 1rem;
+    }
+    .teksTutorial li {
+        list-style-position: inside;
+        margin: 0.4rem 0;
+    }
+    #berita{
+        width: auto;
+        height: auto;
+        background-image: linear-gradient(to bottom right, #000000, #193498);
+        border-radius: 25px;
+        padding: 2rem;
+        margin: 4rem 0;
+    }
+    .beritaa{
+        display: flex;
+        margin: 2rem 0;
+    }
+    .beritaa img {
+        width: 20rem;
+    }
+    .teksBerita{
+        color: white;
+        margin-left: 2rem;
+    }
+    .teksBerita h1{
+        font-size:20px;
+    }
+    .isibe{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+    .teksBerita p {
+        margin: 0.3rem 0;
+    }
+    .sinovac {
+        width: 15rem;
+        height: 12rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        border-radius: 25px;
+    }
+    .sinovac h1 {
+        font-size:30px;
+        color: #0F044C;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .sinovac p {
+        color: #0F044C;
+        margin: 1rem;
+        font-size: 10px;
+    }
+    .moderna {
+        width: 15rem;
+        height: 12rem;
+        background-color: #0F044C;
+        padding: 2rem;
+        border-radius: 25px;
+        color: white;
+    }
+    .moderna h1 {
+        font-size:30px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .moderna p { 
+        margin: 1rem;
+        font-size: 8px;
+    }
+    .img1{
+        border-radius: 25%;
+        padding: 0.5rem;
+        background-color: #ffffff;
+    }
+    .img1 img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .astrazeneca {
+        width: 15rem;
+        height: 12rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        border-radius: 25px;
+    }
+    .astrazeneca h1 {
+        font-size:25px;
+        color: #0F044C;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .astrazeneca p {
+        color: #0F044C;
+        margin: 1rem;
+        font-size: 10px;
+    }
+    
+    footer {
+        width: auto;
+        /* height: 20rem; */
+        background-image: linear-gradient(to bottom right, #000000, #193498);
+        padding: 1.5rem;
+    }
+    .isiFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gambarFooter img{
+        width: 20rem;
+    }
+    
+    .contentFooter {
+        margin-top: 3rem;
+    }
+    .contentFooter h1:nth-child(1){
+        color: white;
+        text-align: right;
+    }
+    .contentFooter h1:nth-child(3){
+        color: white;
+        text-align: right;
+        
+    }
+    .contentFooter img {
+        float: right;
+        padding-right:10px;
+        width: 5rem;
+        margin-top: 5rem ;
+    }
+    .info a{
+        text-decoration: none;
+    }
+}
